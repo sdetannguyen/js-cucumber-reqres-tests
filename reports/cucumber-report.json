@@ -1,0 +1,105 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "dashboard-test;scenario-steps",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Scenario steps",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 813284332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I navigate to dashboard page",
+            "match": {
+              "location": "test/acceptance/step-definitions/dashboard.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3212289457
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I click Support Reqres button",
+            "match": {
+              "location": "test/acceptance/step-definitions/dashboard.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45439708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "The page is auto-scrolled to Support session",
+            "match": {
+              "location": "test/acceptance/step-definitions/dashboard.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3560291
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 52439457
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@browser",
+            "line": 1
+          },
+          {
+            "name": "@dashboard",
+            "line": 2
+          },
+          {
+            "name": "@test01",
+            "line": 8
+          },
+          {
+            "name": "@flaky",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "dashboard-test",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "Dashboard test",
+    "tags": [
+      {
+        "name": "@browser",
+        "line": 1
+      },
+      {
+        "name": "@dashboard",
+        "line": 2
+      }
+    ],
+    "uri": "test/acceptance/features/dashboard.feature"
+  }
+]

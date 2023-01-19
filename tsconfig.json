@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Node 12",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "lib": ["es2020"],
+    "allowJs": true,
+    "module": "commonjs",
+    "target": "es2019",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true
+  },
+  "include": ["./**/*", "typings/index.d.ts", "config/index.d.ts"]
+}

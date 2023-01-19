@@ -1,0 +1,42 @@
+{
+  "env": {
+    "node": true,
+    "es6": true,
+    "browser": false
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "plugins": ["prettier"],
+  "extends": ["prettier", "plugin:prettier/recommended"],
+  "ignorePatterns": ["dist"],
+  "overrides": [
+    {
+      "files": ["**/*.ts"],
+      "extends": [
+        "prettier",
+        "plugin:prettier/recommended",
+        "plugin:import/typescript",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:@typescript-eslint/eslint-recommended"
+      ],
+      "parser": "@typescript-eslint/parser",
+      "plugins": ["prettier", "import", "@typescript-eslint"],
+      "rules": {
+        "@typescript-eslint/explicit-function-return-type": [1, { "allowExpressions": true }],
+        "@typescript-eslint/no-explicit-any": 0,
+        "@typescript-eslint/explicit-module-boundary-types": 0,
+        "@typescript-eslint/member-ordering": 2,
+        "no-useless-constructor": 0,
+        "new-cap": 0
+      }
+    }
+  ],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
+  }
+}

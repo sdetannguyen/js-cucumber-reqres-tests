@@ -1,0 +1,41 @@
+{
+    "applicationUrl": "https://reqres.in",
+    "cleanup": true,
+    "systemType": "default",
+    "browser": "chrome",
+    "skipPendingTests": true,
+    "skipBugRaisedTests": true,
+    "runBrowserHeadless": false,
+    "logLevel": "info",
+    "urlPrefix": "sdetannguyen",
+    "configuration": "default",
+    "credentials": {
+        "administrator": {
+            "email": "sdet.annguyen@gmail.com",
+            "typeahead": "Admin",
+            "password": "",
+            "role": "Admin",
+            "clientKey": "key"
+        }
+    },
+    "driverTimeout": 20000,
+    "cucumberDefaultTimeout": 100000,
+    "cucumberSetupTimeout": 120000,
+    "retryFlakyTestCount": 2,
+    "retryCount": {
+        "low": 5,
+        "medium": 10,
+        "high": 50
+    },
+    "retryIntervalMs": 5000,
+    "browserDownloadDirectory": "downloads",
+    "parallelism": {
+        "acceptance": 1,
+        "api": 5
+    },
+    "functionality": {
+        "dashboard": true,
+        "profile": true,
+        "background": true
+    }
+}
