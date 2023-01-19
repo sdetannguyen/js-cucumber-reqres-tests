@@ -1,5 +1,5 @@
 # js-cucumber-reqres-tests
-- 
+
 Skeleton for automated E2E, API and smoke tests for https://reqres.in application
 
 ## Acceptance Tests
